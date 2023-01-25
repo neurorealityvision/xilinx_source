@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="xemacps_example_intr_dma_1_system" platform="C:/Users/ask_m/workspace/01_ether_wrapper/export/01_ether_wrapper/01_ether_wrapper.xpfm" platformUID="xilinx:zcu106::0.0(custom)" sysConfig="01_ether_wrapper" runtime="C/C++">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1914711745">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="xemacps_example_intr_dma_1" domainName="standalone_psu_cortexa53_0" domainPrettyName="standalone_psu_cortexa53_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1130326476">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="xemacps_example_intr_dma_1" domainName="standalone_psu_cortexa53_0" domainPrettyName="standalone_psu_cortexa53_0" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

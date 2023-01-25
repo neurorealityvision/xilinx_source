@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="xemacps_example_intr_dma_1" location="C:/Users/ask_m/workspace/xemacps_example_intr_dma_1" platform="C:/Users/ask_m/workspace/01_ether_wrapper/export/01_ether_wrapper/01_ether_wrapper.xpfm" platformUID="xilinx:zcu106::0.0(custom)" systemProject="xemacps_example_intr_dma_1_system" sysConfig="01_ether_wrapper" runtime="C/C++" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="624043a6609be43c89c15bc59cfcfc54">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.935928117">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.519229137" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

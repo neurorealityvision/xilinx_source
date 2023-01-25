@@ -1,0 +1,26 @@
+2023-01-25T16:07:59.513655200255-16:07:59 **** Build of configuration Debug for project xemacps_example_intr_dma_1 ****
+000-make all 
+000-'Building file: ../src/xemacps_example_intr_dma.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xemacps_example_intr_dma.o" -IC:/Users/ask_m/workspace/01_ether_wrapper/export/01_ether_wrapper/sw/01_ether_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/xemacps_example_intr_dma.d" -MT"src/xemacps_example_intr_dma.o" -o "src/xemacps_example_intr_dma.o" "../src/xemacps_example_intr_dma.c"
+000-'Finished building: ../src/xemacps_example_intr_dma.c'
+000-' '
+000-'Building file: ../src/xemacps_example_util.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xemacps_example_util.o" -IC:/Users/ask_m/workspace/01_ether_wrapper/export/01_ether_wrapper/sw/01_ether_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/xemacps_example_util.d" -MT"src/xemacps_example_util.o" -o "src/xemacps_example_util.o" "../src/xemacps_example_util.c"
+000-'Finished building: ../src/xemacps_example_util.c'
+000-' '
+000-'Building target: xemacps_example_intr_dma_1.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ask_m/workspace/01_ether_wrapper/export/01_ether_wrapper/sw/01_ether_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "xemacps_example_intr_dma_1.elf"  ./src/xemacps_example_intr_dma.o ./src/xemacps_example_util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: xemacps_example_intr_dma_1.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size xemacps_example_intr_dma_1.elf  |tee "xemacps_example_intr_dma_1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  56548	   5232	6312660	6374440	 614428	xemacps_example_intr_dma_1.elf
+000-'Finished building: xemacps_example_intr_dma_1.elf.size'
+000-' '
+00255-
+16:08:01 Build Finished (took 2s.241ms)
+
